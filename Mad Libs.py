@@ -1,3 +1,7 @@
+import time
+### Source: https://cdn-images-1.medium.com/max/1600/1*-i97l3xkz-bhk5k0YgvBEg.jpeg
+
+
 print("Write a noun")
 noun1 = input()
 
@@ -44,8 +48,7 @@ print("Write an article of clothing")
 articleofclothing = input()
 
 
-### MAD LIB ###
-### Source: https://cdn-images-1.medium.com/max/1600/1*-i97l3xkz-bhk5k0YgvBEg.jpeg
+### BEGIN MAD LIB ###
 
 print("An amusement park is always fun to visit on a hot summer "
       + noun1 + "."" When you get there, you can wear your "
@@ -60,3 +63,5 @@ print("An amusement park is always fun to visit on a hot summer "
       + pluralnoun2 + " that you drive and run into other "
       + pluralnoun3 + ", and the merry-go-round, where you can sit on a big "
       + animal + " and try to grab the gold " + noun4 + " as you ride past it.")
+
+time.sleep(100)
